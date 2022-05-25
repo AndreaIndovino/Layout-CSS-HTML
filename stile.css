@@ -1,0 +1,100 @@
+/* IMPOSTAZIONI GENERALI */
+html {
+    font-size: 65%;
+}
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+/* Ho impostato il font-size in percentuale e nel tag body ho specificato font del carattere, dimensione e interlinea. */
+/* Per non far mostrare nella renderizzazione le linee hr, ho preferito rimuoverle direttamente dallo html*/
+
+/* HEADER */
+
+header {
+    background-color: #00A0C6;
+    text-align: center;
+    color:white;
+    padding: 2em;
+    border-bottom:4px solid #027794;
+    margin-bottom:auto;
+    font-family: Raleway;
+}
+/* inserito in header colore, allineamento testo, margini e padding */
+
+header h1{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+header h1 span{
+    background-color: white;
+    text-align: center;
+    color: #00A0C6;
+}
+
+header h2 {
+    margin:0 auto;
+    color:black;
+    font-variant:small-caps;
+}
+/* Ho specificato per ogni tag di header le caratteristiche di font */
+
+/* MAIN */
+
+main {
+    padding: 0 1em; /*destra e sinistra 1em*/
+    margin-bottom: 1em;
+}
+
+section h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color:#027794;
+    font: bold Raleway;
+}
+
+section div {
+    margin-bottom: 1em;
+}
+
+/* ELEMENTI NEL MAIN */
+p, address, ul, ol, dl, blockquote {
+    margin-bottom: 2em;
+}
+
+figure {
+    text-align: center;
+}
+
+blockquote {
+    margin: auto;
+    background-color:antiquewhite;
+    font-style: italic;
+    text-align: right; /*poiché già allineato a sinistra */
+    padding: 2em;
+    border-radius: 15px; /*attributo per sagomare gli angoli dello sfondo */
+}
+
+/* FOOTER */
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    text-align: center;
+    border-top: 4px solid #027794;
+    padding: 0 1em;
+    font-size: 1.2rem;
+}
+
+footer p {
+    margin:0;
+    line-height: 2em;
+    color: white;
+}
+
+footer kbd {
+    color:yellow
+}
